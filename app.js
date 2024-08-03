@@ -1,7 +1,7 @@
 let url = "https://newsapi.org/v2/everything?q=";
 let apiKey= "87c833f7ede247399e99ea4b0524d43d";
 
-window.addEventListener("load", () => fetchnews("india"));
+window.addEventListener("load", () => fetchnews("sports"));
 async function fetchnews(query){
     const news = await fetch(`${url}${query}&apiKey=${apiKey}`);
      const news_data = await news.json();
