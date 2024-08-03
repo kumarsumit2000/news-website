@@ -35,7 +35,6 @@ function bindData(articles){
 
     }
 }
-
 let addclass = null;
 function newnews(id){
     fetchnews(id);
@@ -53,4 +52,4 @@ searchbtn.addEventListener("click", () =>{
     console.log(searchtext);
     fetchnews(searchtext);
 });
-// search news
+//Search news
